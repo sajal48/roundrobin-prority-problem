@@ -18,7 +18,7 @@ void display();
 
 int main()
 {
-	printf("\n**>Enter time in 2400 hours format. example for 10:30 am enter 10030"
+	printf("\n**>Enter time in 2400 hours format. example for 10:30 am enter 1030"
 			"\n**>Enter Query arrival times in ascending order, i.e., in real time arrival manner\n"
 			"\nAll Time units are in minutes. \n\n");
 	input();
