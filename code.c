@@ -165,7 +165,12 @@ void display(){
 	int i=0, total=0, sum=0; 
 	double avg;
 	printf("\nSummary for the Execution\n");
-	printf("\nQuery ID\tArrival Time\tRessolving Time\tCompletion Time\tTurn Around Time\tWaiting Time");
+	printf("\nQuery ID");
+	printf("\tArrival Time");
+	printf("\tRessolving Time");
+	printf("\tCompletion Time");
+	printf("\tTurn Around Time");
+	printf("\tWaiting Time");
 	for(i; i<mc; i++){
 		printf("\n%d\t\t%d\t\t%d\t\t%d\t\t%d\t\t\t%d",
 		m[i].pid, (m[i].arrivaltime+1000), m[i].bursttime, (m[i].completetime+1000), (m[i].completetime-m[i].arrivaltime), ((m[i].completetime-m[i].arrivaltime)- m[i].bursttime));
